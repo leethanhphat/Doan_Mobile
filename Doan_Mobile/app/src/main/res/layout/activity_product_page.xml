@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#EDEDED"
     android:orientation="vertical"
-    tools:context=".Product_Page">
+    tools:context=".Activity.Product_Page_Activity">
 
     <LinearLayout
         android:layout_width="match_parent"

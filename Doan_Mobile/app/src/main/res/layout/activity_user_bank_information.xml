@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".User_Bank_Information"
+    tools:context=".Activity.User_Bank_Information_Activity"
     android:background="#EDEDED">
 
     <LinearLayout

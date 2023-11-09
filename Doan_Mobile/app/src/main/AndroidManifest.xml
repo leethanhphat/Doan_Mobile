@@ -12,52 +12,52 @@
         android:theme="@style/Theme.TryAgain"
         tools:targetApi="31">
         <activity
-            android:name=".User_Bank_Information"
+            android:name=".Activity.User_Bank_Information_Activity"
             android:exported="false" />
         <activity
-            android:name=".Bank_User"
+            android:name=".Activity.Bank_User_Activity"
             android:exported="false" />
         <activity
-            android:name=".Add_Banks_Activity"
+            android:name=".Activity.Add_Banks_Activity"
             android:exported="false" />
         <activity
-            android:name=".Bank_Activity"
+            android:name=".Activity.Bank_Activity"
             android:exported="false" />
         <activity
-            android:name=".Add_User_Information"
+            android:name=".Activity.Add_User_Information_Activity"
             android:exported="false" />
         <activity
-            android:name=".Edit_User_Infor_Activity"
+            android:name=".Activity.Edit_User_Infor_Activity"
             android:exported="false" />
         <activity
-            android:name=".End_Process_Activity"
+            android:name=".Activity.End_Process_Activity"
             android:exported="false" />
         <activity
-            android:name=".History_Parent_Activity"
+            android:name=".Activity.History_Parent_Activity"
             android:exported="false" />
         <activity
-            android:name=".Payment_Activity"
+            android:name=".Activity.Payment_Activity"
             android:exported="false" />
         <activity
-            android:name=".SearchProduct"
+            android:name=".Activity.SearchProduct_Activity"
             android:exported="false" />
         <activity
-            android:name=".Detail_Activity"
+            android:name=".Activity.Detail_Activity"
             android:exported="false" />
         <activity
-            android:name=".Cart_Activity"
+            android:name=".Activity.Cart_Activity"
             android:exported="false" />
         <activity
-            android:name=".Product_Page"
+            android:name=".Activity.Product_Page_Activity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".Activity.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".User_Information"
+            android:name=".Activity.User_Information_Activity"
             android:exported="false" />
         <activity
-            android:name=".SplashActivity"
+            android:name=".Activity.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -66,10 +66,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SignUp_Activity"
+            android:name=".Activity.SignUp_Activity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Activity.MainActivity"
             android:exported="false" />
     </application>
 
