@@ -4,6 +4,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Activity.Edit_User_Infor_Activity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -189,5 +193,7 @@
 
         </LinearLayout>
     </RelativeLayout>
+        
+    </ScrollView>
 
 </FrameLayout>

@@ -263,13 +263,12 @@ public class Detail_Activity extends AppCompatActivity {
                 mCommentAdapter.notifyDataSetChanged();
                 if (mCommentAdapter.getItemCount() == 0) {
                     rcvCmt.setVisibility(View.GONE);
-                    tv_check.setText("Đánh giá từ người dùng: (Trống)");
+                    tv_check.setText("Chưa có đánh giá từ người dùng nào !!!");
                 } else {
                     rcvCmt.setVisibility(View.VISIBLE);
                     tv_check.setText("Đánh giá từ người dùng:");
                 }
             }
-
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
             }

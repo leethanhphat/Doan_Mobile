@@ -36,7 +36,7 @@
                     android:drawableStart="@drawable/ic_search"
                     android:drawablePadding="5dp"
                     android:focusable="false"
-                    android:hint="What are you looking for?"
+                    android:hint="Bạn đang tìm kiếm gì ?"
                     android:paddingStart="10dp"
                     android:textStyle="italic" />
 
@@ -159,7 +159,7 @@
                         android:clickable="true"
                         android:gravity="end"
                         android:paddingVertical="5dp"
-                        android:text="Watch more >>>"
+                        android:text="Xem thêm >>>"
                         android:textStyle="italic" />
                 </LinearLayout>
 
